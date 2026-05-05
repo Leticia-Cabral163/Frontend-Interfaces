@@ -1,0 +1,243 @@
+body{
+    background-color: #faf9f6;
+    background-size: cover;/*ajustar para cobrir todo o fundo*/
+    height: 100vh; 
+    margin:0%;
+    position: relative;
+    
+}
+header{
+  width: 100%;
+  height: 95px; 
+  background-color:#5a2d1d;
+  padding: 8px;
+  display: flex; 
+  align-items: center;  
+}
+
+#logo-site{ /* logo do site*/
+    width: 182px;
+    height: 95px; /* larguraaa*/
+    margin-left: 10px;
+    margin-right: 800px;
+    border-radius: 10px;
+}
+
+#icone-pesquisa{
+    width: 35px;
+    height: 35px; /* larguraaa*/
+    margin-right: 10px; 
+}
+
+header a{
+     text-decoration: none;/*tirar o sublinhado dos links*/
+    color:hsl(0, 33%, 96%); 
+    font-size: medium;
+}
+
+#pesquisa{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+
+     
+}
+header button{ /* botões do cabeçalho*/
+    margin:10px;
+    width: 90px;
+    height: 35px;
+    background-color: #d97706;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+header button:hover{ 
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+nav{
+     display: flex;
+    justify-content: space-around; /*espaço igual entre os itens*/
+    align-items: center; 
+     padding: 0px;
+    background-color: #42251a;
+    width: 1500px;
+     height: 45px;
+     margin-top: 0%;
+     width: 100%;
+}
+nav a{
+    text-decoration: none;/*tirar o sublinhado dos links*/
+    color:#f2eaea; 
+    font-size: medium;
+}
+
+
+.banner-site{
+    width: 100%;
+    height: 450px;
+}
+
+.container-obras{
+     width: 100%;
+    height: 395px;
+    background-color: #faf9f6
+}
+
+.container-obras2{
+     width: 100%;
+    height: 395px;
+    background-color: hsl(47, 22%, 84%);
+    margin-top: 10px;
+}
+
+.title-container{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    margin-top: 50px;
+}
+.title-container h2{
+    margin-top: 0%;
+    margin-left: 10px;
+    text-decoration: none;
+    font-family:cursive;
+    width: 400px;
+}
+
+.title-container button {
+    width: 100px;
+    height: 35px;
+    background-color: #d97706;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-left: 900px;
+   
+}
+.title-container button:hover {
+     opacity: 0.7 ; 
+}
+
+.title-container a{
+      text-decoration: none;/*tirar o sublinhado dos links*/
+    color:#000000; 
+    font-size: medium;
+}
+.div-obras{
+      width: 100%;
+    height: 335px;
+    display: flex;
+    padding: 8px;
+     justify-content: space-around; /*espaço igual entre os itens*/
+}
+.Obra{
+    width: 170px;
+    height: 315px;
+     padding: 10px; 
+    /* display: flex;
+    flex-direction: column; */
+    border-radius: 10px;
+      text-align: center;
+}
+.Obra:hover{
+    background-color:hsl(47, 22%, 84%); 
+    /* cursor: pointer; */
+}
+#obra2:hover{
+     background-color:hwb(0 100% 0%); 
+    /* cursor: pointer; */
+}
+.Obra p{
+    margin: 5px;
+}
+#capa-obra{
+     width: 147px;
+    height: 250px;
+    border-radius: 8px;
+
+}
+
+#icone-tipo-obra{
+   width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+}
+
+.footer{ /* daqui para baixo é decoração do footer,
+     obs: igual em todas as paginas porque eu achei bonito desse jeito e não quiz mudar
+     ( podemos chamar de padronização do site, um nome mais bonito para preguiça)*/
+    background-color:#5a2d1d;
+    width: 100%;
+    height: 205px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.logo-footer{
+       width: 85px;
+    height: 175px;
+    
+}
+
+.logo-footer img{
+       width: 70px;
+    height: 70px;
+    margin: 8px;
+}
+
+.info-footer{
+    width: 515px;
+    height: 175px;
+}
+.info-footer p {
+    color: #f2eaea;
+}
+
+.icons-footer{
+      width: 262px;
+    height: 42px;
+    display: flex;
+    justify-content: space-around; /*espaço igual entre os itens*/
+    
+}
+
+.icons-footer img{
+     width: 30px;
+    height: 36px;
+}
+
+.baixar-footer{
+    width: 231px ;
+   height: 105px ;
+   padding: 5px;
+}
+
+.baixar-footer img {
+    width: 101px ;
+   height: 33px ;
+}
+
+.baixar-footer h3 {
+      margin-top: 0%;
+      color: #f2eaea;
+}
+
+.footer-lastcontainer{
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    background-color: #d97706;
+    margin: 0%;
+}
+
+.footer-lastcontainer p {
+    margin: 0%;
+    color: #f2eaea;
+}

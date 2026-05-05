@@ -1,0 +1,41 @@
+                           BiblioCine
+    A ideia surgiu dos seguintes preceitos, além de desenhar ler e tocar musica é um dos meus
+passatempos favoritos, seguindo o preceito de ler, outra coisa que eu adoro é assistir filmes
+( principalmente inspirados em livros para eu pode falar sempre " não tem isso no livro" ou 
+" o livro é melhor", " não acredito que tiraram isso" e etc...), a partir do tema comecei a pensar 
+como eu faria para colocar meus gostos e dores em forma de web-site.
+Participo de um grupo de leitura, a maioria das pessoas que gostam de ler , gosta de catalogar e 
+organizar os livros livros ( fica util depois que vc já leu vários), gosta de dar sua opinião
+(dar a opinião sobre o livro é quase melhor do que ler o livro, eu mesma já terminei um livro
+péssimo só para poder dizer "não tem um capitulo bom nesse livro" ), gosta de acompanhar os
+outros amigos lerem o livro que vc indicou sabendo o final da historia e acompanhar as reações
+deles, gosta de julgar o estilo dos outros,gosta de explicar o que está lendo, entre outros...
+ Partindo desses presupostos Básicos
+Ideia geral : BiblioCine
+ Livros+Filmes+Séries
+ Comunidade online  sobre Obras da Cultura Popular
+
+ Paginas:
+ index.html= pagina home;
+ cadastro;
+ login;
+sobre;
+perfil;
+
+ Referencias e sites de inspiração : 
+ https://guiadoestudante.abril.com.br/atualidades/#google_vignette
+ https://infinitasvidas.wordpress.com/
+ https://www.skoob.com.br/autor/recentes
+ https://www.skoob.com.br/autor/recentes
+ https://www.shopify.com/br/blog/como-escrever-a-pagina-sobre-nos-para-seu-e-commerce?term=&adid=733028502364&campaignid=19685764210&utm_medium=cpc&utm_source=google&gad_source=1&gad_campaignid=19685764210&gbraid=0AAAAADiv1InyiXitxyRCnpSoxiL-DVk_r&gclid=Cj0KCQjwsNnCBhDRARIsAEzia4Dxk_Zb8ev3fhtpAEE27h2sc5cvVZE3bOfWvt2uYncbWRB_BG-P3HMaApQiEALw_wcB&cmadid=516586683;cmadvertiserid=10730501;cmcampaignid=26990768;cmplacementid=324494383;cmcreativeid=163722649;cmsiteid=5500011
+ 
+
+/nome-do-projeto
+├── /assets            # Tudo o que é recurso visual ou de suporte
+│   ├── /css           # Todos os arquivos .css (ex: style.css, contact.css)
+│   ├── /images        # Todas as imagens e ícones
+│   └── /js            # (Se houver) Arquivos JavaScript
+├── index.html         # Página principal (obrigatório ter este nome)
+├── contato.html       # Outras páginas no diretório raiz
+├── sobre.html
+└── README.md          # Explicação direta do projeto

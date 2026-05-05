@@ -1,0 +1,232 @@
+body{
+    background-color:hsl(47, 22%, 84%); 
+    background-size: cover;/*ajustar para cobrir todo o fundo*/
+    height: 100vh; 
+    margin:0%;
+    position: relative;
+    
+}
+header{
+  width: 100%;
+  height: 95px; 
+  background-color:#5a2d1d;
+  padding: 8px;
+  display: flex; 
+  align-items: center;  
+}
+
+#logo-site{
+    width: 182px;
+    height: 95px; 
+    margin-left: 10px;
+    margin-right: 800px;
+    border-radius: 10px;
+}
+
+#icone-pesquisa{
+    width: 35px;
+    height: 35px; 
+    margin-right: 10px; 
+}
+
+header a{
+     text-decoration: none;/*tirar o sublinhado dos links*/
+    color:hsl(0, 33%, 96%); 
+    font-size: medium;
+}
+
+#pesquisa{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+     
+}
+header button{
+    margin:10px;
+    width: 90px;
+    height: 35px;
+    background-color: #d97706;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+header button:hover{ 
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+main{
+        background-color: hsl(47, 22%, 84%); 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Cadastrar{
+    width: 960px;
+    height: 650px;
+    background-color: #faf9f6;
+    display: flex;
+}
+.lado1 img {
+    width: 500px;
+    height: 350px;
+}
+.lado1 p {
+    width: 500px;
+    height: auto;
+    text-align: justify;
+    margin: 10px;
+}
+
+.lado1 h1 {
+    width: 500px;
+    height: auto;
+    text-align: center;
+    
+}
+
+ .lado1{
+    background-color: #faf9f6;
+    margin-right: 20px;
+ }
+.formulário{
+    width: 400px;
+    height: 635px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formulário h3{
+       text-align: center;
+    font-size: larger;
+}
+
+input[type=text], input[type=password],input[type=email] {
+    width: 10%; 
+    padding: 10px 10px;
+    margin: 5px 0;
+    display: inline-block; /*declara como elemnetos do bloco*/
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+  }
+ form {
+        align-items: center;
+         }
+
+         .input-group {
+    margin-bottom: 10px;
+}
+
+.input-icon {
+    position: relative;
+}
+
+.input-icon img {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 20px;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+   padding-right: 30px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.cadastrar{
+       width: 340px;
+    height: 42px;
+    border-radius: 15px;
+    margin-left: 30px;
+    background-color: #d97706;
+    border: none;
+    margin-top: 10px;
+  
+  }
+.cadastrar a {
+            text-decoration: none;
+            color:hsl(0, 0%, 99%); /*cor dos links*/
+            margin: 0 10px;/*adiciona margem horizontal aos links*/
+          
+}
+.footer{
+    background-color:#5a2d1d;
+    width: 100%;
+    height: 205px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.logo-footer{
+       width: 85px;
+    height: 175px;
+    
+}
+
+.logo-footer img{
+       width: 70px;
+    height: 70px;
+    margin: 8px;
+}
+
+.info-footer{
+    width: 515px;
+    height: 175px;
+}
+.info-footer p {
+    color: #f2eaea;
+}
+
+.icons-footer{
+      width: 262px;
+    height: 42px;
+    display: flex;
+    justify-content: space-around; /*espaço igual entre os itens*/
+    
+}
+
+.icons-footer img{
+     width: 30px;
+    height: 36px;
+}
+
+.baixar-footer{
+    width: 231px ;
+   height: 105px ;
+   padding: 5px;
+}
+
+.baixar-footer img {
+    width: 101px ;
+   height: 33px ;
+}
+
+.baixar-footer h3 {
+      margin-top: 0%;
+      color: #f2eaea;
+}
+
+.footer-lastcontainer{
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    background-color: #d97706;
+    margin: 0%;
+}
+
+.footer-lastcontainer p {
+    margin: 0%;
+    color: #f2eaea;
+}
