@@ -1,0 +1,89 @@
+body{
+    background-image: url('cafe.jpg');
+    background-size: contain; /*ajeita a imagem para o maior tamanho possivel*/
+    background-size: cover;/* ajeita a imagem para preencher todo o body*/
+    display: flex;/*define o layout como fexbox que seria uma forma muito felxivel*/
+    justify-content: center;/*centraliza as coisas*/
+    align-items: center;/*alinhar itens*/
+    min-height: 100vh;/*ajusta o body para o tamanho da tela*/
+    margin: 0;/*margem como 0*/
+}
+input[type=text], input[type=password] {
+    width: 10%; /*largura dos campos dentro do div*/
+    padding: 10px 10px;/*largura e altura dos campos de entrada*/
+    margin: 5px 0;
+    display: inline-block; /*declara como elemnetos do bloco*/
+    border: 1px solid #ccc; /*borda*/
+    box-sizing: border-box; /*define borda*/
+  }
+
+  button:hover {
+    opacity: 0.8; /*Quando clicar sobre o botão ele vai ficar mais transparente*/
+  }
+  .quadrado2 {
+    width: 300px;/*Largura do bloco*/
+    padding: 20px;/*tamanho do bloco*/
+    background-color: #f0f0f0;
+    border-radius: 5px;/*cantos arredondados*/
+
+    form {
+        border: 3px solid #f1f1f1; /*Borda*/
+        align-items: center;
+         }
+
+    .cadastrar {
+        background-color: lch(84.14% 36.94 90.91);/*cor botão*/
+        padding: 10px 15px; /*largura e altura*/
+        border: none;/*borda 0*/
+        border-radius: 3px;
+        cursor: pointer;
+        width: 100%;
+  }
+  
+  .Inicio {
+    background-color: hsl(43, 91%, 46%);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+} 
+}
+fieldset {
+    border: 1px solid #ccc;/*especura*/
+    padding: 20px;
+} /*linha branca ao redor*/
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-icon {
+    position: relative;
+}
+
+.input-icon img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20px;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+div a {
+    text-decoration: none;/*tirar o sublinhado dos links*/
+    color:#000000; /*cor dos links*/
+    margin: 0 10px;/*adiciona margem horizontal aos links*/
+  }

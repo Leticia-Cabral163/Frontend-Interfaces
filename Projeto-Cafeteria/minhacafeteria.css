@@ -1,0 +1,60 @@
+h2{
+    font-family: Impact;
+    color:hwb(50 1% 11%);
+    font-size: 400%;
+    padding: 10px;
+    margin: 10px;
+
+}
+body{
+     background-image: url(cafe.jpg);
+    background-size: cover;/*ajustar para cobrir todo o fundo*/
+        height: 100vh; /*ajustar para ocupar toda a altura da tela*/
+        margin:0%;
+        position: relative;
+      }
+      body img {
+        height: 10px;
+        width: 10px; 
+      }
+      
+      p {
+        /* background: rgb(255 84 104 / 30%);
+        border: 2px solid rgb(255 84 104); */
+        padding: 10px;
+        margin: 10px;
+        font-size: 250%;
+        color: beige;
+      }
+     .nav{
+       width: 100%;/*ocupar toda a largura*/
+          } 
+          nav{
+            display: flex;
+            justify-content: space-around; /*espaço igual entre os itens*/
+            align-items: center; /*alinha os intens verticalmente ao centro*/
+            padding: 10px;
+          }
+          nav a {
+            text-decoration: none;/*tirar o sublinhado dos links*/
+            color:#000000; /*cor dos links*/
+            margin: 0 10px;/*adiciona margem horizontal aos links*/
+          }
+        nav h1{
+          margin: 0;/*remove margem padrão do titulo*/
+          color: aliceblue;
+        }
+          nav button{
+          background-color: #e0a503;
+          margin: 0%;
+          border-radius: 5px;
+        }
+ main{
+  position: absolute;/*ajustar para cobrir todo o fundo*/
+  top: 50%;/*ajustar */
+  left: 50%;/*ajustar para cobrir todo o fundo*/
+  transform: translate(-50%,-50%);/*ajustar para cobrir todo o fundo*/
+  text-align: center;/*ajustar para cobrir todo o fundo*/
+  z-index: 1;/*ajustar para cobrir todo o fundo*/
+
+ }

@@ -1,0 +1,95 @@
+body{
+    background-color: antiquewhite;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;/* altura mínima de um elemento*/ 
+    margin: 0;
+   font-family: Arial, sans-serif;
+   padding: 20px;/*preenchimento*/
+}
+h1{
+    font-size: 32px;
+    color:hwb(50 1% 11%); 
+    text-align: center;
+     
+ }
+ .container{
+   max-width: 1000px;/*define largura maxima*/
+   background-color: hsl(0, 0%, 100%);
+   width: 300px;/*Largura do bloco*/
+   padding: 20px;/*tamanho do bloco*/
+   border-radius: 10px;/*cantos arredondados*/ 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Nova sombra para dar destaque */
+   margin: auto; /* Centraliza a div */
+}
+.conteudo {
+   display: flex; /* Nova: permite alinhar lado a lado */
+   gap: 20px; /* Espaçamento entre texto e imagem */
+ }
+
+ .texto-receita {
+   flex: 1; /* Ocupa o espaço disponível */
+ }
+
+ .imagem-bebida {
+   width: 300px; /* Tamanho da imagem */
+   height: auto;
+   border-radius: 10px;
+   object-fit: cover;
+ }
+
+ .ingredientes ul,
+ .modopreparo ol {
+   padding-left: 20px;
+ }
+
+ .ingredientes li {
+   list-style: none;
+   margin-bottom: 10px;
+   display: flex; /* Nova: alinha texto e imagem lado a lado */
+   align-items: center; /* Nova: centraliza verticalmente */
+   font-size: 16px;
+ }
+
+ .ingredientes li img {
+   width: 20px; /* Tamanho igual ao texto */
+   height: 20px;
+   margin-right: 10px; /* Espaço entre imagem e texto */
+ }
+
+ legend {
+   font-size: 24px;
+   color: #b35c2d;
+   font-weight: bold;
+ }
+
+ .modopreparo h2 {
+   color: #6a4226;
+   font-size: 24px;
+   margin-top: 20px;
+ }
+
+ /* .input-group {
+   margin-bottom: 100px;
+}
+
+.input-icon {
+   position:relative;
+}
+
+.input-icon img {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   width: 20px;
+}
+
+img{
+   position: absolute;
+   top: 100px;
+   left: 100px;
+   width: 200px;
+} */
+
+

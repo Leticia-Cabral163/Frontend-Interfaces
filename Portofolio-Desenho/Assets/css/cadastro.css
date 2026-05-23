@@ -1,0 +1,101 @@
+body{
+    background-image: url(../img/fotocentro.jpg);
+    background-size: contain; /*ajeita a imagem para o maior tamanho possivel*/
+    background-size: cover;/* ajeita a imagem para preencher todo o body*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-wrap: wrap;
+       flex-direction: column;
+}
+
+input[type=text], input[type=password] {
+    width: 10%; 
+    padding: 10px 10px;
+    margin: 5px 0;
+    display: inline-block; /*declara como elemnetos do bloco*/
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+  }
+ button:hover {
+    opacity: 0.8; 
+    cursor: pointer;
+  }
+    .container {
+    width: 300px;/*Largura do bloco*/
+    padding: 20px;/*tamanho do bloco*/
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    margin-top: 60px;
+    position: relative;
+
+    }
+        form {
+        border: 5px solid #f1f1f1; /*Borda*/
+        align-items: center;
+         }
+
+         .input-group {
+    margin-bottom: 10px;
+}
+
+.input-icon {
+    position: relative;
+}
+
+.input-icon img {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 20px;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+   padding-right: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+div a {
+    text-decoration: none;
+    color:#000000;
+    margin: 0 10px;
+  }
+    .cadastrar {
+ border-radius: 45%;
+  width: 150px;
+  height: 40px;
+  background-color: #3e9387;
+  margin: 0px 0px 10px;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  }
+.cadastrar a {
+            text-decoration: none;/*tirar o sublinhado dos links*/
+            color:hsl(0, 0%, 99%); /*cor dos links*/
+            margin: 0 10px;/*adiciona margem horizontal aos links*/
+          
+}
+  #camera{
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+     justify-content: center;
+      align-items: center;
+        width: 60px; /* Ajuste o tamanho conforme necessário */
+  height: 60px; /* Ajuste o tamanho conforme necessário */
+  }
+  #camera img {
+  width: 40px; /* Tamanho da imagem da câmera dentro do círculo */
+  height: 40px;
+  border-radius: 50%;
+
+}
+  

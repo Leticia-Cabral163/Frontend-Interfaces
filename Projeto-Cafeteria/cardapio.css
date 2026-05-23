@@ -1,0 +1,76 @@
+body {
+  background-image: url('cafe.jpg');
+    background-size: contain;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;/*alinhar itens*/
+    min-height: 100vh;
+    margin: 0;
+   
+}
+.tabela{
+    width: 500px;/*Largura do bloco*/
+    padding: 20px;
+    background-color: hsl(36, 26%, 4%);
+    border-radius: 5px;/*cantos arredondados*/
+}
+
+  td{
+    text-align: left;
+    padding-left: 10px;
+    /* padding-top: 0px;
+    text-align: center;
+    margin-top: 0px; */
+    
+  }
+  #Bebidastitulo{
+    font-family:'Segoe UI'; /* Tahoma, Geneva, Verdana, sans-serif;*/
+    font-style: italic;
+    font-size: larger;
+    text-align: left;
+    color:  #AB7843;
+  }
+  .tabela{
+    h1{
+        text-align: center;
+        font-family: Impact;
+        color:hwb(50 1% 11%);
+        font-size: 400%;
+    }
+  }
+
+  .preco {
+color: #f0f2f2;
+/*background-color: #4c2b08;*/
+  }
+  .produto{
+    font-family:  Verdana;
+    color:hsl(0, 16%, 90%);
+    /*background-color: #B8957F;*/
+    font-style: italic;
+  }
+  .descricao{
+    font-size: small;
+    color:#AB7843;
+  }
+  div a {
+    text-decoration: none;/*tirar o sublinhado dos links*/
+    color:#AB7843; /*cor dos links*/
+    margin: 0 10px;/*adiciona margem horizontal aos links*/
+  }
+  #inicio{
+    color: black;
+  }
+  button{
+    background-color: hsl(43, 91%, 46%);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover {
+    opacity: 0.8; /*Quando clicar sobre o botão ele vai ficar mais transparente*/
+  }
+ 
