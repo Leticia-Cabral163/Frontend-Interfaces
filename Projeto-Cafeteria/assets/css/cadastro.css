@@ -1,5 +1,5 @@
 body{
-    background-image: url('cafe.jpg');
+    background-image: url('../img/cafe.jpg');
     background-size: contain; /*ajeita a imagem para o maior tamanho possivel*/
     background-size: cover;/* ajeita a imagem para preencher todo o body*/
     display: flex;/*define o layout como fexbox que seria uma forma muito felxivel*/
