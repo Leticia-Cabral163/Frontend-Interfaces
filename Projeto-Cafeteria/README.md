@@ -10,8 +10,7 @@ Aqui, o principal desafio foi que esse foi o meu primeiro projeto unindo html e 
 ---
 
 ## 🎨 Demonstração Visual
-![Preview do Projeto](CAMINHO_DA_FOTO_OU_GIF.png)
-
+link da interface : ([Projeto-Cafeteria/minhacafeteria.html](https://leticia-cabral163.github.io/Frontend-Interfaces/Projeto-Cafeteria/minhacafeteria.html))
 
 ---
 
