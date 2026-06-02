@@ -17,6 +17,11 @@ Partindo desses pressupostos, o projeto foi estruturado como uma plataforma onli
 
 ---
 
+## 🎨 Demonstração Visual
+* **Link para visualizar a interface rodando:** [Acesse a Interface do Bibliocine](https://leticia-cabral163.github.io/Frontend-Interfaces/Bibliocine-Project/index.html)
+
+---
+
 ## 🎨 Design
 
  A concepção visual do BiblioCine reflete conceitos técnicos transferidos desse repertório:
